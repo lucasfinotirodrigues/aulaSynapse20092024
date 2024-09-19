@@ -1,0 +1,21 @@
+/* Estilos para telas pequenas (até 600px) */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  /* Estilos para telas médias (até 768px) */
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  /* Estilos para telas grandes (acima de 769px) */
+  @media only screen and (min-width: 769px) {
+    body {
+      background-color: lightcoral;
+    }
+  }
+  
