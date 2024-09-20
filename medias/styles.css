@@ -1,21 +1,38 @@
-/* Estilos para telas pequenas (até 600px) */
-@media only screen and (max-width: 600px) {
+/*RESOLUÇÃO PARA DISPOSITIVOS*/
+
+/*
+    Extra Large (Xl) maior ou igual a 1200px
+    Large (Lg) menor que 1200px e maior ou igual que 992px
+    Medium (Md) menor que 992px e maior ou igual que 768px
+    Small (Sm) menor que 768px e maior ou igual que 540px
+    Extra Small menor que 576px     
+*/
+
+/*Estilo para telas que tem no máximo 576px*/
+@media only screen and (max-width: 576px) {
     body {
-      background-color: lightblue;
+      background-color: #ff0000;
     }
-  }
-  
-  /* Estilos para telas médias (até 768px) */
-  @media only screen and (max-width: 768px) {
+}
+
+/*Estilo para telas entre 768px e maior ou igual a 540px*/
+@media only screen and (min-width: 577px) and (max-width: 768px){
     body {
-      background-color: lightgreen;
+      background-color: #00ff00;
     }
-  }
-  
-  /* Estilos para telas grandes (acima de 769px) */
-  @media only screen and (min-width: 769px) {
+}
+
+/*Estilo para telas que tem no mínimo*/
+@media only screen and (min-width: 769px) {
     body {
-      background-color: lightcoral;
+      background-color: #ffff00;
     }
-  }
+}
+
+/*Estilo para impressão da página*/
+@media print {
+    body {
+      background-color: #0000ff;
+    }
+}
   
